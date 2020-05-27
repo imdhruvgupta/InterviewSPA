@@ -1,0 +1,21 @@
+<h1>Listing Users</h1>
+
+<a href='/todos/new'>Register new user</a> <br><br>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Username</th>
+    <th>Email</th>
+  </tr>
+ 
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><%= user.username %></td>
+      <td><%= user.email %></td>
+      <td><%= link_to 'Edit', edit_user_path(user) %></td>
+      <td><%= link_to 'Delete', user_path(user), method: :delete %></td>
+    </tr>
+  <% end %>
+</table>

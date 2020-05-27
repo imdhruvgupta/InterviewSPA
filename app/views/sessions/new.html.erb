@@ -1,0 +1,24 @@
+<h1>Register Interview</h1>
+
+<%= form_with scope: :session, url: sessions_path, local: true do |form| %>
+    
+    <p>
+    <label>Select Interviewee</label><br>
+    <%= select("session", "user_id", User.all.collect {|u| [ u.username, u.id ] }, { include_blank: true }) %>
+    </p>
+    
+    
+    <p>
+    <label>Start Time</label><br>
+    <%= datetime_local_field(:session, :start) %>
+    </p>
+    
+    <p>
+    <label>End Time</label><br>
+    <%= datetime_local_field(:session, :end) %>
+    </p>
+    
+    <p>
+    <%= form.submit %>
+    </p>
+<% end %>

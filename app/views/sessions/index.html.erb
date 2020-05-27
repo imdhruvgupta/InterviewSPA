@@ -1,0 +1,23 @@
+<h1>Listing Interviews</h1>
+
+<a href='/sessions/new'>Add a new interview</a> <br><br>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Interviewee Id</th>
+    <th>Start Time</th>
+    <th>End Time</th>
+  </tr>
+ 
+  <% @sessions.each do |session| %>
+    <tr>
+      <td><%= session.id %></td>
+      <td><%= session.user_id %></td>
+      <td><%= session.start %></td>
+      <td><%= session.end %></td>
+      <td><%= link_to 'Edit', edit_session_path(session) %></td>
+      <td><%= link_to 'Delete', session_path(session), method: :delete %></td>
+    </tr>
+  <% end %>
+</table>
