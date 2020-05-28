@@ -9,7 +9,17 @@ class SessionsController < ApplicationController
     
     def new
     end
-    
+
+    def update
+        @session = Session.find(params[:id])
+        
+        if @session.update(session_params)
+            render :json => @session
+        else
+            render 'edit'
+        end
+    end
+
     def create
         
         
