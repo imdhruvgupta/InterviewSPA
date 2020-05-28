@@ -7364,3 +7364,1586 @@ Processing by SessionsController#index as */*
 Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/sessions" for ::1 at 2020-05-28 15:29:44 +0530
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/dhruvgupta/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (1.4ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 18ms (Views: 10.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 15:29:49 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 15:34:59 +0530
+Processing by SessionsController#index as HTML
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 15:35:06 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 15:35:13 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:36:58 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:37:09 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:38:38 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:38:44 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:38:48 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:39:57 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:40:01 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:40:59 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:41:09 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:45:18 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:48:44 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:48:50 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:49:22 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:49:25 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:49:38 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:49:41 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:49:46 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:49:54 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:02 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:07 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:10 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:13 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:24 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:28 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:36 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 15:50:40 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (1.4ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:24
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:50:40 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 15:51:15 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:24
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:51:15 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 15:51:29 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:24
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:51:29 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 15:51:50 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:24
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:51:50 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 15:52:06 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:24
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:52:06 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 15:52:35 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:24
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 15:52:36 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 16:00:08 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (1.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:00:08 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/sessions/" for ::1 at 2020-05-28 16:00:12 +0530
+Processing by SessionsController#create as */*
+  Parameters: {"session"=>{"start"=>"", "end"=>"", "user_id"=>"2"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/sessions_controller.rb:27
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:27
+  [1m[36mSession Create (2.7ms)[0m  [1m[32mINSERT INTO "sessions" ("created_at", "updated_at", "user_id") VALUES (?, ?, ?)[0m  [["created_at", "2020-05-28 10:30:12.416381"], ["updated_at", "2020-05-28 10:30:12.416381"], ["user_id", 2]]
+  ↳ app/controllers/sessions_controller.rb:27
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/sessions_controller.rb:27
+Redirected to http://localhost:3000/sessions
+Completed 302 Found in 34ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:00:12 +0530
+Processing by SessionsController#index as */*
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 16:03:57 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:03:57 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 16:03:57 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 16:03:59 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:03:59 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/2/edit" for ::1 at 2020-05-28 16:03:59 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"2", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:06 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:18 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:29 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:31 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:39 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:43 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:46 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:48 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:51 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:05:54 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:06:00 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:06:28 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:06:28 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:06:28 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:06:59 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:06:59 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:06:59 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:05 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:07:05 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:05 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:07 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:07:07 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:07 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:12 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:07:12 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:12 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:14 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.4ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:07:14 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:14 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:21 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:07:21 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:21 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:29 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.5ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:07:29 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:07:46 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:07:46 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:15 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:09:15 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:15 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:44 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:09:44 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:44 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:46 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:09:46 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:46 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:49 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:09:49 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:49 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:55 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:09:55 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:09:55 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:09 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:09 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:09 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:20 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:20 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:20 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:29 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:29 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:29 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:35 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:35 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:35 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:41 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:41 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:41 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:43 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:43 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:43 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:48 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:48 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:48 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:51 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:51 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:51 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:55 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:10:55 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:10:55 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:11:10 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:11:10 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:11:10 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:11:12 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:11:12 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:11:12 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:11:15 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:11:15 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:11:15 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:12:53 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (1.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 12ms (Views: 4.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:12:53 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:17:45 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:17:45 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:17:53 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:17:53 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:17:59 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:02 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:18:02 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:02 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:14 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:18:14 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:14 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:17 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:18:17 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:17 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:26 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:18:26 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:18:26 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:20:29 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:20:29 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:20:29 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:08 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.5ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:21:08 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:08 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:15 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:21:15 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:15 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:18 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:21:18 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:18 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:23 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:21:23 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/14/edit" for ::1 at 2020-05-28 16:21:23 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"14", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:21:25 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.4ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:21:26 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:31:34 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (1.6ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:31:34 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:31:34 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:32:31 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:32:31 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:32:34 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:32:34 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions/17" for ::1 at 2020-05-28 16:32:54 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/sessions/17"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/sessions" for ::1 at 2020-05-28 16:32:55 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.4ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:32:59 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:33:02 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.3ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:33:02 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:34:35 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.1ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:34:35 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions/17/edit" for ::1 at 2020-05-28 16:34:39 +0530
+Processing by SessionsController#edit as */*
+  Parameters: {"id"=>"17", "session"=>{}}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:34
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/" for ::1 at 2020-05-28 16:34:39 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/sessions/17" for ::1 at 2020-05-28 16:35:00 +0530
+Processing by SessionsController#update as */*
+  Parameters: {"session"=>{"start"=>"2020-05-28T11:11", "end"=>"2020-05-28T12:11", "user_id"=>"1"}, "id"=>"17"}
+  [1m[36mSession Load (0.2ms)[0m  [1m[34mSELECT  "sessions".* FROM "sessions" WHERE "sessions"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/sessions_controller.rb:16
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:16
+  [1m[36mSession Update (1.9ms)[0m  [1m[33mUPDATE "sessions" SET "start" = ?, "end" = ?, "user_id" = ?, "updated_at" = ? WHERE "sessions"."id" = ?[0m  [["start", "2020-05-28 11:11:00"], ["end", "2020-05-28 12:11:00"], ["user_id", 1], ["updated_at", "2020-05-28 11:05:00.699118"], ["id", 17]]
+  ↳ app/controllers/sessions_controller.rb:16
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/sessions_controller.rb:16
+Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/sessions" for ::1 at 2020-05-28 16:35:00 +0530
+Processing by SessionsController#index as */*
+  Parameters: {"session"=>{}}
+  [1m[36mSession Load (0.4ms)[0m  [1m[34mSELECT "sessions".* FROM "sessions"[0m
+  ↳ app/controllers/sessions_controller.rb:7
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+
+

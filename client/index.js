@@ -1,13 +1,13 @@
 import Home from './views/Home.js'
 import New from './views/New.js'
-// import Edit from './views/Edit.js'
+import Edit from './views/Edit.js'
 
 import Utils from './Utils.js'
 
 const routes = {
     '/' : Home,
     '/sessions/new' : New,
-    // '/sessions/:id/edit' : Edit,
+    '/sessions/:id/edit' : Edit,
     
 };
 
@@ -18,7 +18,7 @@ const router = async () => {
     let request = Utils.parseRequestURL()
     let page = routes[request]
     
-    console.log(page)
+    console.log(request)
     content.innerHTML = await page.render();
     await page.after_render();
   
